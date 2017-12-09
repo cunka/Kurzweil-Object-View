@@ -1,5 +1,3 @@
-# Kurzweil Object View
-
 ![](images/ObjectView_main.png)
 
 Open and view the objects from the Kurzweil PC3/Forte series files. 
