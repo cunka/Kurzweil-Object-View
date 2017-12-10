@@ -9,6 +9,17 @@ Open and view the objects from the Kurzweil PC3/Forte series files.
 Download the ZIP to your computer. 
 Unzip the contents and open the index.html file in your desktop browser.
 
+### Open a file
+
+![](images/ObjectView_navbar.png)
+
+The top navigation bar has two buttons for loading files, called "NFO" & "Browse".
+
+#### Open a PC3/Forte file
+Click the Browse button.
+Find the file you would like to open and view.
+Press ok.
+
 
 ## Built With
 
