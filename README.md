@@ -5,9 +5,11 @@ Open and view the objects from the Kurzweil PC3/Forte series files.
 * Export : Excel, XML, JSON, CSV & SQL file formats
 
 ## Getting Started
-
-Download the ZIP to your computer. 
-Unzip the contents and open the index.html file in your desktop browser.
+These instructions will get you a copy of ObjectView up and running on your desktop computer.
+### Prerequisites
+You will need a good modern desktop browser like Chrome, FireFox or Safari.
+1. Download the ZIP to your computer. 
+2. Unzip the contents and open the index.html file in your desktop browser.
 
 ### Open a file
 
