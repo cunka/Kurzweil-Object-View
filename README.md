@@ -40,6 +40,16 @@ NFO files can export all the controller information for Programs and Effects Cha
 
 ![](images/ObjectView_overview1.png)
 
+![](images/ObjectView_filtertable.png)
+
+![](images/ObjectView_sortable.png)
+
+![](images/ObjectView_export.png)
+
+![](images/ObjectView_kb3.png)
+
+![](images/ObjectView_ramsamplepng.png)
+
 
 ---
 
