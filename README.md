@@ -27,14 +27,15 @@ The top navigation bar has two buttons for loading files, called "NFO" & "Browse
 ![](images/ObjectView_navbar.png)
 
 #### What is a NFO file?
+
+Kurzweil use NFO files to export all the controller information for Programs and Effects Chains from "Storage Mode". 
 _NFO files are exported currently only from the PC3 series._
 
-To open and view a NFO file with __ObjectView__, select the "NFO" button.
+A NFO file is best thought of as Kurzweils fancy name for a CSV file, which you would commonly use in software like Microsoft EXCEL. It is simply a text file with a pipe delimiter. You can in fact load the NFO file with a program like EXCEL. I have provided it in __ObjectView__ for quick and easy viewing
 
-NFO files can export all the controller information for Programs and Effects Chains from "Storage Mode". 
+To open and view a NFO file with __ObjectView__, select the "NFO" button and then open either an INFO.NFO or INFOFX.NFO file. You must never rename these files as __ObjectView__ is expecting one of those named files.
+
 ![](images/ObjectView_storage.png)
-
-A NFO file is best thought of as Kurzweils fancy name for a CSV file, which you would commonly use in software like Microsoft EXCEL. It is simply a text file with a pipe delimiter. You can in fact load the NFO file with a program like EXCEL. I have provided it in __ObjectView__ for quick and easy viewing.
 
 
 ---
