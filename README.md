@@ -4,34 +4,34 @@ Open and view the objects from the Kurzweil PC3/Forte series files.
 * File types : .PC3 .P3K .P3A .FOR .NFO (PC3 only)
 * Export : Excel, XML, JSON, CSV & SQL file formats
 
-:disappointed: _No PC3LE support (yet)_
+_NOTE : No PC3LE support (yet)_
 
 ---
 
 ## Getting Started
-These instructions will get you a copy of ObjectView up and running on your desktop computer. 
+These instructions will get you a copy of __ObjectView__ up and running on your desktop computer. 
 ### Prerequisites
 You will need a good modern desktop browser like Chrome, FireFox or Safari.
 1. Download the ZIP to your computer. 
 2. Unzip the contents and open the index.html file in your desktop browser.
 
 
+### Open a PC3/Forte file
+
 The top navigation bar has two buttons for loading files, called "NFO" & "Browse". To open and view a PC3 or Forte file, select the "Browse button". 
+
+1. Click the Browse button.
+2. Find the file _(must have either a .PC3 .P3K .P3A .FOR file extension)_
+3. Click Open.
 
 ![](images/ObjectView_navbar.png)
 
 #### What is a NFO file?
-NFO files are exported currently only from the PC3 series. 
+_NFO files are exported currently only from the PC3 series._
+
+To open and view a NFO file with __ObjectView__, select the "NFO" button.
 
 NFO files can export all the controller information for Programs and Effects Chains from "Storage Mode". A NFO file is best thought of as Kurzweils fancy name for a CSV file, which you would commonly use in software like Microsoft EXCEL. It is simply a text file with a "|" delimiter. It is very handy 
-
-
-
-#### Open a PC3/Forte file
-Click the Browse button.
-Find the file you would like to open and view.
-Press ok.
-
 
 ## Built With
 
