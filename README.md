@@ -31,7 +31,7 @@ _NFO files are exported currently only from the PC3 series._
 
 To open and view a NFO file with __ObjectView__, select the "NFO" button.
 
-NFO files can export all the controller information for Programs and Effects Chains from "Storage Mode". A NFO file is best thought of as Kurzweils fancy name for a CSV file, which you would commonly use in software like Microsoft EXCEL. It is simply a text file with a "|" delimiter. 
+NFO files can export all the controller information for Programs and Effects Chains from "Storage Mode". A NFO file is best thought of as Kurzweils fancy name for a CSV file, which you would commonly use in software like Microsoft EXCEL. It is simply a text file with a " | " delimiter. 
 
 
 ---
