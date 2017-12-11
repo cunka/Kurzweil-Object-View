@@ -42,7 +42,22 @@ To open and view a NFO file with __ObjectView__, select the "NFO" button and the
 
 ## Whats On Display
 
+When __ObjectView__ scans a file, it looks at the objects within that file and then searches to find if those objects are dependents of other objects. For example, a Program may be found, which uses an algorithm, keymap or effect chain. Those objects are dependents for the Program. So if you only loaded that Program and not the algorithm, keymap, effect chain, it would not sound the same or not sound at all.
+
+Any object tabs shown on the top line are object types found within the file. 
+
 ![](images/ObjectView_overview1.png)
+
+#### Object Tabs
+
+#### Filter Objects
+
+#### Export File
+
+#### Sortable Table
+
+#### Hash ID
+
 
 ![](images/ObjectView_dependents1png.png)
 
@@ -59,6 +74,8 @@ To open and view a NFO file with __ObjectView__, select the "NFO" button and the
 ![](images/ObjectView_ramsamplepng.png)
 
 ![](images/ObjectView_setupinfo.png)
+
+![](images/ObjectView_programinfo.png)
 
 
 ---
