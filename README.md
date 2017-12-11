@@ -44,20 +44,31 @@ To open and view a NFO file with __ObjectView__, select the "NFO" button and the
 
 When __ObjectView__ scans a file, it looks at the objects within that file and then searches to find if those objects are dependents of other objects. For example, a Program may be found, which uses an algorithm, keymap or effect chain. Those objects are dependents for the Program. So if you only loaded that Program and not the algorithm, keymap, effect chain, it would not sound the same or not sound at all.
 
-Any object tabs shown on the top line are object types found within the file. 
+The tabs across the top are the heart of __ObjectView__. At the very minimum, there is always at least one tab which is the file name. It contains the main table that shows all the objects found found in the file and the order it was saved in. The table lists the object type, object ID, object name and object hash. The contents of this table can be exported in variety of formats and used to document the file.
 
 ![](images/ObjectView_overview1.png)
 
 #### Object Tabs
 
+Any object tabs shown on the top line are object types found within the file that have dependents. 
+
 #### Filter Objects
+
+The table in __ObjectView__ can be filtered by object types. The selection "ALL OBJECTS" is selected by default.
 
 #### Export File
 
+The table can be exported into a variety of text formats. Export types are JSON, XML, CSV, TXT, SQL and MS EXCEL.
+Exported is the object type, object ID, object name and object hash.
+
 #### Sortable Table
+
+The table can be sortable in variety of ways.You can sort by object type, object ID, object name or object hash.
 
 #### Hash ID
 
+The object hash is a unique feature on __ObjectView__ that takes an object and creates a mathematical number based on the contents of the object minus the objects name and ID. So with this number its possible to compare, find objects that are the same. An example is an effect chain may be called "1025 Brian1" and another effect chain called "1034 Brian2", if the numbers are the same, then objects are exactly the same except they have been renamed. This is very handy to find duplicate objects.
+. _(This technique is commonly used to download ZIP files and make sure that no-one has tampered with the contents)._ 
 
 ![](images/ObjectView_dependents1png.png)
 
