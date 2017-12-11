@@ -52,7 +52,7 @@ The tabs across the top are the heart of __ObjectView__. At the very minimum, th
 
 Any object tabs shown on the top line are object types found within the file that have dependents. 
 
-_NOTE : Forte currently shows a limited amount of object tabs. _
+_NOTE : Forte currently shows a limited amount of object tabs._
 
 #### Filter Objects
 
