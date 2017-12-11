@@ -52,41 +52,64 @@ The tabs across the top are the heart of __ObjectView__. At the very minimum, th
 
 Any object tabs shown on the top line are object types found within the file that have dependents. 
 
+_NOTE : Forte currently shows a limited amount of object tabs. _
+
 #### Filter Objects
 
 The table in __ObjectView__ can be filtered by object types. The selection "ALL OBJECTS" is selected by default.
+
+![](images/ObjectView_filtertable.png)
 
 #### Export File
 
 The table can be exported into a variety of text formats. Export types are JSON, XML, CSV, TXT, SQL and MS EXCEL.
 Exported is the object type, object ID, object name and object hash.
 
+![](images/ObjectView_export.png)
+
 #### Sortable Table
 
 The table can be sortable in variety of ways.You can sort by object type, object ID, object name or object hash.
 
+![](images/ObjectView_sortable.png)
+
 #### Hash ID
 
-The object hash is a unique feature on __ObjectView__ that takes an object and creates a mathematical number based on the contents of the object minus the objects name and ID. So with this number its possible to compare, find objects that are the same. An example is an effect chain may be called "1025 Brian1" and another effect chain called "1034 Brian2", if the numbers are the same, then objects are exactly the same except they have been renamed. This is very handy to find duplicate objects.
-. _(This technique is commonly used to download ZIP files and make sure that no-one has tampered with the contents)._ 
+The object hash is a unique feature on __ObjectView__ that takes an object and creates a mathematical number based on the contents of the object minus the objects name and ID. So with this number its possible to compare, find objects that are the same. 
+
+An example is an effect chain may be called "1025 Brian1" and another effect chain called "1034 Brian2", if the numbers are the same, then objects are exactly the same except they have been renamed. This is very handy to find duplicate objects.
+
+_(This technique is commonly used to download ZIP files and make sure that no-one has tampered with the contents)._ 
+
+
+### Dependents
 
 ![](images/ObjectView_dependents1png.png)
 
+
+### Duplicates
+
 ![](images/ObjectView_duplicates.png)
 
-![](images/ObjectView_filtertable.png)
 
-![](images/ObjectView_sortable.png)
-
-![](images/ObjectView_export.png)
+### KB3 Programs
 
 ![](images/ObjectView_kb3.png)
 
+
+### RAM samples
+
 ![](images/ObjectView_ramsamplepng.png)
 
-![](images/ObjectView_setupinfo.png)
+
+### Program INFO
 
 ![](images/ObjectView_programinfo.png)
+
+
+### Setup infomation
+
+![](images/ObjectView_setupinfo.png)
 
 
 ---
