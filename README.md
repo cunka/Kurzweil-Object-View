@@ -9,7 +9,7 @@ _NOTE : Limited PC3LE support_
 ---
 
 ## Getting Started
-These instructions will get you a copy of __ObjectView__ up and running on your desktop computer. 
+These instructions will get you a copy of __ObjectView__ (version 0.97) up and running on your desktop computer. 
 ### Prerequisites
 You will need a good modern desktop browser like Chrome, FireFox or Safari.
 1. Download the ZIP to your computer. 
@@ -95,6 +95,10 @@ _NOTE : Only objects from the file are shown. If an Object links to objects in y
 
 ### Duplicates
 
+A unique feature of __ObjectView__ is it will attempt to find objects that may be duplicates of each other. If you own a Kurzweil, then there is a good chance you have many duplicate objects. Many occasions its just the name has changed and the contents are the same.
+
+By using the hash ID, __ObjectView__ will scan and indicate if it has found anything it believes to be duplicate object.
+
 ![](images/ObjectView_duplicates.png)
 
 
@@ -110,16 +114,28 @@ KB3 Programs are special programs that are of Kurzweils organ modelling of the f
 Kurzweil has two types of samples. One is a modified ROM sample that has been edited by a user. This is found in all Kurzweil instruments __ObjectView__ can open. The other type of sample is a RAM sample which can only be used by the PC3K and Forte series.
 
 To clearly indicate RAM samples the sortable object table will clearly highlight them a purple color.
-
 ![](images/ObjectView_ramsamplepng.png)
 
 
 ### Program INFO
 
+While not necessary in __ObjectView__, I've included the ability to see what INFO is stored in a particular Program. You can quickly see the controllers used, what its been applied to along with and dependent insert/aux1/aux2 effects chains.
+
+Click anywhere in the sortable object view table to activate it. Then simply hover over any Program and the INFo will be shown in a pop up window.
+
+_NOTE : Not currently supported on the Forte._
+
 ![](images/ObjectView_programinfo.png)
 
 
-### Setup infomation
+### Setup information
+
+The Setup Information view is similar to the Program INFO view where it can quickly show you a few important parameters to a particular Setup. Zone Program ID, zone MIDI Channels, zone status, zone Riff, zone shift/velocity pattern and if FX are loaded on that channel. As well as any aux1/aux2 effects chains if they are override. The aux FX channel as well as the KB3 channel. 
+
+All zones are shown and all Program IDs, even if that Program ID is not found in that file! In most cases these will be IDs linked to ROM Program IDs. If it isn't, then you could possibly have found out why something isn't working properly. 
+
+
+_NOTE : Not currently supported on the Forte._
 
 ![](images/ObjectView_setupinfo.png)
 
