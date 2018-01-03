@@ -1,10 +1,10 @@
 ![](images/ObjectView_main.png)
 
 Open and view the objects from the Kurzweil PC3/Forte series files. 
-* File types : .PC3 .P3K .P3A .FOR .NFO (PC3 only)
+* File types : .PC3 .P3K .P3A .PLE .FOR .NFO _(PC3 only)_
 * Export : Excel, XML, JSON, CSV & SQL file formats
 
-_NOTE : No PC3LE support (yet)_
+_NOTE : Limited PC3LE support _
 
 ---
 
@@ -21,7 +21,7 @@ You will need a good modern desktop browser like Chrome, FireFox or Safari.
 The top navigation bar has two buttons for loading files, called "NFO" & "Browse". To open and view a PC3 or Forte file, select the "Browse button". 
 
 1. Click the Browse button.
-2. Find the file _(must have either a .PC3 .P3K .P3A .FOR file extension)_
+2. Find the file _(must have either a .PC3 .P3K .P3A .PLE .FOR file extension)_
 3. Click Open.
 
 ![](images/ObjectView_navbar.png)
@@ -114,7 +114,7 @@ _(This technique is commonly used to download ZIP files and make sure that no-on
 
 ---
 
-## Built With
+## Built With the following Javascript libraries
 
 * [JQuery](https://jquery.com/) - navigation
 * [Bootstrap 3](https://getbootstrap.com/docs/3.3/) - front end framework
@@ -124,16 +124,15 @@ _(This technique is commonly used to download ZIP files and make sure that no-on
 
 ## Authors
 
-* **Brian Cowell** - *Initial work* - [CUNKA](http://cunka.com/)
+* **Brian Cowell** - [CUNKA](http://cunka.com/)
+
+
+## Acknowledgments
+
+* [Mastering VAST Forum subscribers](http://forums.godlike.com.au/) _Thanks for testing and helping it too work better!_
+* Kurzweil R&D & Tech Support
 
 
 ## Trademarks
 
 "Kurzweil", "V.A.S.T.", "PC3", "PC3K", "PC3A", "PC3LE", "Forte", "Forte 7", "ForteSE" are registered Trademarks of Young Chang.
-
-
-## Acknowledgments
-
-* Kurzweil R&D 
-* Kurzweil Tech Support
-* [Mastering VAST Forum subscribers](http://forums.godlike.com.au/)
