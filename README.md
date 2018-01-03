@@ -4,7 +4,7 @@ Open and view the objects from the Kurzweil PC3/Forte series files.
 * File types : .PC3 .P3K .P3A .PLE .FOR .NFO _(PC3 only)_
 * Export : Excel, XML, JSON, CSV & SQL file formats
 
-_NOTE : Limited PC3LE support _
+_NOTE : Limited PC3LE support_
 
 ---
 
@@ -67,9 +67,9 @@ Exported is the object type, object ID, object name and object hash.
 
 ![](images/ObjectView_export.png)
 
-#### Sortable Table
+#### Object Sortable Table
 
-The table can be sortable in variety of ways.You can sort by object type, object ID, object name or object hash.
+The object table can be sortable in variety of ways. You can sort by object type, object ID, object name or object hash.
 
 ![](images/ObjectView_sortable.png)
 
@@ -84,6 +84,12 @@ _(This technique is commonly used to download ZIP files and make sure that no-on
 
 ### Dependents
 
+If any objects are found, __ObjectView__ will try to find any links a particular object has to another object in that file and display it as a list of tabs. This makes it easy for you to find what objects are connected to other objects by selecting that objects tab. If a particular object _(eg. Effect Chain 1026 MYEFFECT)_ is shown in the object sortable table, but does not appear as either a tab, or in the tab list, then the object is not been used by anything.
+
+An example of dependents is Setups are made up of Programs, effects chain, velocity patterns, shift patterns and Riffs. If __ObjectView__ finds links then they will appear underneath the "Setup" tab. 
+
+_NOTE : Only objects from the file are shown. If an Object links to objects in your Kurzweil instruments ROM, those objects are not indicated or shown under the objects dependents tab. Always remember __ObjectView__ is scanning for objects and links within the file you have just opened._
+
 ![](images/ObjectView_dependents1png.png)
 
 
@@ -94,10 +100,16 @@ _(This technique is commonly used to download ZIP files and make sure that no-on
 
 ### KB3 Programs
 
+KB3 Programs are special programs that are of Kurzweils organ modelling of the famous vintage Hammond B3. The sortable object table will clearly highlight them a light green for easy indication.
+
 ![](images/ObjectView_kb3.png)
 
 
 ### RAM samples
+
+Kurzweil has two types of samples. One is a modified ROM sample that has been edited by a user. This is found in all Kurzweil instruments __ObjectView__ can open. The other type of sample is a RAM sample which can only be used by the PC3K and Forte series.
+
+To clearly indicate RAM samples the sortable object table will clearly highlight them a purple color.
 
 ![](images/ObjectView_ramsamplepng.png)
 
