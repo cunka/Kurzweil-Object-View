@@ -127,6 +127,11 @@ _(This technique is commonly used to download ZIP files and make sure that no-on
 * **Brian Cowell** - *Initial work* - [CUNKA](http://cunka.com/)
 
 
+## Trademarks
+
+"Kurzweil", "V.A.S.T.", "PC3", "PC3K", "PC3A", "PC3LE", "Forte", "Forte 7", "ForteSE" are registered Trademarks of Young Chang.
+
+
 ## Acknowledgments
 
 * Kurzweil R&D 
