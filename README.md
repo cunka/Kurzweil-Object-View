@@ -95,9 +95,9 @@ _NOTE : Only objects from the file are shown. If an Object links to objects in y
 
 ### Duplicates
 
-A unique feature of __ObjectView__ is it will attempt to find objects that may be duplicates of each other. If you own a Kurzweil, then there is a good chance you have many duplicate objects. Many occasions its just the name has changed and the contents are the same.
+A unique feature of __ObjectView__ is it will attempt to find objects that may be duplicates of each other. The "Duplicates" tab will only appear if a duplicate has been detected. By using the hash ID, __ObjectView__ will scan and indicate if it has found anything it believes to be duplicate object.
 
-By using the hash ID, __ObjectView__ will scan and indicate if it has found anything it believes to be duplicate object.
+If you own a Kurzweil, then there is a good chance you have many duplicate objects. Many occasions its just the name has changed and the contents are the same.
 
 ![](images/ObjectView_duplicates.png)
 
@@ -133,7 +133,6 @@ _NOTE : Not currently supported on the Forte._
 The Setup Information view is similar to the Program INFO view where it can quickly show you a few important parameters to a particular Setup. Zone Program ID, zone MIDI Channels, zone status, zone Riff, zone shift/velocity pattern and if FX are loaded on that channel. As well as any aux1/aux2 effects chains if they are override. The aux FX channel as well as the KB3 channel. 
 
 All zones are shown and all Program IDs, even if that Program ID is not found in that file! In most cases these will be IDs linked to ROM Program IDs. If it isn't, then you could possibly have found out why something isn't working properly. 
-
 
 _NOTE : Not currently supported on the Forte._
 
